@@ -33,6 +33,7 @@
 
 .thumbnail-row{
   margin-bottom: 12px;
+  position: relative;
 }
 
 .video-grid{
@@ -40,4 +41,20 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 42Spx;
+}
+
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  bottom: 8px;
+  right: 5px;
 }
