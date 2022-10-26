@@ -43,6 +43,13 @@
   row-gap: 42px;
 }
 
+@media (max-width: 600px){
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 .video-time{
   background-color: black;
   color: white;
